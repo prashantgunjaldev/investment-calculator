@@ -1,8 +1,8 @@
 {
   "name": "investment-calculator",
   "private": true,
-  "version": "0.0.0",
-  "homepage": "https://github.com/prashantgunjaldev/investment-calculator/",
+  "version": "1.0.0",
+  "homepage": "https://prashantgunjaldev.github.io/investment-calculator/",
   "type": "module",
   "scripts": {
     "dev": "vite",
