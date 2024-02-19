@@ -15,8 +15,8 @@ function App() {
 
   const isValidInput = userInput.duration >=1;
 
-  const handleChange = (inputId: string, newVal: string) => {
-    setUserInput(val=> {return {...val, [inputId]: newVal}} );
+  const handleChange = (inputId: string, newVal: number) => {
+    setUserInput(val=> {return {...val, [inputId]: +newVal}} );
   };
 
   return (
